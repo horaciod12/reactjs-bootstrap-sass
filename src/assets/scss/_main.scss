@@ -1,0 +1,29 @@
+.Search-text {
+  margin-right: 0.5rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  color: #888888;
+}
+
+.Load-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  color: $primary;
+}
+
+@include media-breakpoint-down(sm) {
+  .Search-text {
+    display: none;
+  }
+  .Container-input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+// customized bootstrap
+@import "./config";
+
+// all of Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// other css
+@import "./mixings";
+@import "./navbar";
+@import "./header";
+@import "./main";
+@import "./card";
+@import "./footer";
