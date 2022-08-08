@@ -16,3 +16,12 @@
     color: #ffffff;
   }
 }
+
+@include media-breakpoint-down(sm) {
+  .Header {
+    .Text {
+      font-size: 35px;
+      line-height: 41px;
+    }
+  }
+}
