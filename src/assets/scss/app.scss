@@ -1,10 +1,25 @@
-// customized bootstrap
+// Required
+@import "bootstrap/scss/functions";
+
+// Default variable overrides
 @import "./config";
 
-// all of Bootstrap
-@import "bootstrap/scss/bootstrap";
+// Required
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/bootstrap-utilities";
 
-// other css
+// Optional Bootstrap components here
+@import "bootstrap/scss/bootstrap-grid";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/forms";
+
+//other css
 @import "./mixings";
 @import "./navbar";
 @import "./header";
