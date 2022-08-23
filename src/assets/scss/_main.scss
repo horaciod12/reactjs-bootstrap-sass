@@ -18,11 +18,15 @@
   }
   svg {
     width: 36.32px;
-    height: 38.91px;
+    height: 37.91px;
     border: 1px solid #ced4da;
     border-radius: 0 0.375rem 0.375rem 0;
     border-left: none;
-    padding-right: 15px;
+    padding-right: 0.9375rem;
+  }
+  .form-control:focus {
+    border-color: #ced4da;
+    box-shadow: none;
   }
 }
 
