@@ -16,13 +16,16 @@
     border-right: none;
     border-radius: 0.375rem 0 0 0.375rem;
   }
-  img {
-    width: 36.32px;
-    height: 37.91px;
-    border: 1px solid #ced4da;
-    border-radius: 0 0.375rem 0.375rem 0;
-    border-left: none;
-    padding-right: 0.9375rem;
+  .Container-img {
+    display: flex;
+    align-self: normal;
+    img {
+      width: 36.32px;
+      border: 1px solid #ced4da;
+      border-radius: 0 0.375rem 0.375rem 0;
+      border-left: none;
+      padding-right: 0.9375rem;
+    }
   }
   .form-control:focus {
     border-color: #ced4da;
