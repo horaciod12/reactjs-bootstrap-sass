@@ -1,38 +1,3 @@
-.Gallery {
-  display: inline-block;
-  position: sticky;
-  left: 58.48%;
-  right: 2.51%;
-  top: 25.06%;
-  bottom: 2.58%;
-  font-family: "Oriya MN";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 23px;
-  line-height: 28px;
-  color: #74667e;
-  .Rectangle {
-    @include logo-rectangles;
-    left: 90.59%;
-    right: -5.05%;
-    top: -13.29%;
-    bottom: 59.31%;
-    background: $primary;
-    width: 13px;
-    height: 13px;
-  }
-  .Rectangle-2 {
-    @include logo-rectangles;
-    left: 86%;
-    right: -6.26%;
-    top: -24.05%;
-    bottom: 52.1%;
-    background: #ffffff;
-    width: 13px;
-    height: 13px;
-  }
-}
-
 .Button-login {
   font-family: "Roboto", sans-serif;
   font-style: normal;
